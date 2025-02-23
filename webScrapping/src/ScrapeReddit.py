@@ -1,7 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 
-def scrape_reddit_post(url):
+#def scrape_reddit_post(url):
     # Send a GET request to the URL
     headers = {'User-Agent': 'Mozilla/5.0'}
     response = requests.get(url, headers=headers)
@@ -36,9 +36,9 @@ def scrape_reddit_post(url):
     }
 
 # Example usage
-url = 'https://www.reddit.com/r/Python/comments/vncw6d/what_is_the_best_library_for_website_scraping/'
-post_data = scrape_reddit_post(url)
-print(post_data)
+#url = 'https://www.reddit.com/r/Python/comments/vncw6d/what_is_the_best_library_for_website_scraping/'
+#post_data = scrape_reddit_post(url)
+#print(post_data)
 
 #md text-14 - div for all the comments etc. 
 #

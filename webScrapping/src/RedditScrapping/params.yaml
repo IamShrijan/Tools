@@ -1,0 +1,12 @@
+batch_size: 10
+comments_cap: null
+debug: false
+laps: 100
+output_dir: ./data/
+reddit_id: 2P4KSmTyeg-XFmjaGn9kow
+reddit_username: DevDevReddit
+subreddit: VeteransBenefits
+utc_after: null
+utc_before: null
+utc_lower_bound: null
+utc_upper_bound: null
